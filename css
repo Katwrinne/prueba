@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #444;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 2em;
+    text-align: center;
+}
+
+.cars {
+    padding: 2em;
+    background: #fff;
+    text-align: center;
+}
+
+.car-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.car {
+    border: 1px solid #ddd;
+    padding: 1em;
+    width: 200px;
+}
+
+.car img {
+    width: 100%;
+    height: auto;
+}
+
+.booking {
+    background: #f4f4f4;
+    padding: 2em;
+    text-align: center;
+}
+
+.booking form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin: 0.5em 0 0.2em;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+footer {
+    text-align: center;
+    background: #444;
+    color: white;
+    padding: 1em 0;
+}
